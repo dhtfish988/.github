@@ -1,0 +1,39 @@
+name: Bug report
+description: Something in this repository does not behave the way its README says it does.
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please do not paste private data, credentials, or binaries you are not
+        allowed to share. For anything that should not be public at first, use the
+        Security tab → *Report a vulnerability* instead of this form.
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened
+      description: What you ran, what you expected, and what happened instead. Exact commands are best.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: How to reproduce it
+      description: The smallest input or sequence that shows the problem. An input file that can be rebuilt from a description is fine.
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Environment
+      description: Commit or version, OS and version, and the relevant toolchain (Python, Node, Xcode, IDA).
+      placeholder: "e.g. 641ed39, macOS 26.7 arm64, Python 3.9.6"
+    validations:
+      required: true
+  - type: textarea
+    id: already-checked
+    attributes:
+      label: Anything you already ruled out
+      description: Optional. If you checked the README's limitations section, or tested a variant, note it here.
+    validations:
+      required: false
