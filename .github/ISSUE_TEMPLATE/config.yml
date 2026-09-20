@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Security report
+    url: https://github.com/dhtfish988
+    about: For a vulnerability, use the Security tab of the affected repository → "Report a vulnerability" instead of an issue. Each repository's SECURITY.md says what is in scope.
+  - name: What has and has not been verified
+    url: https://github.com/dhtfish988
+    about: Each repository says this in its own README, and in docs/VERIFICATION.md where that file exists.
