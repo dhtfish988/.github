@@ -22,9 +22,10 @@ code is good. If you fix something, say which command you ran and what it printe
 
 ## Reporting a bug
 
-Use the repository's issue form. For anything that should not be public at first,
-use that repository's **Security** tab → *Report a vulnerability* rather than an
-issue; each repository's `SECURITY.md` says what is in scope for it.
+Use the repository's issue form for ordinary bugs. For sensitive reports, follow
+its security policy and use **Security** → *Report a vulnerability* where enabled.
+If no private channel is listed, open a minimal issue asking for a reporting
+channel without publishing exploit details, private data or credentials.
 
 ## Licensing
 
